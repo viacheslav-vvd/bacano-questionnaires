@@ -23,14 +23,14 @@ default: &default
 
 development:
   <<: *default
-#  database: bacano_questionnairs_development
+#  database: bacano_questionnaires_development
   url: <%= ENV['DATABASE_URL'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: bacano_questionnairs
+  #username: bacano_questionnaires
 
   # The password associated with the postgres role (username).
   #password:
@@ -58,7 +58,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: bacano_questionnairs_test
+  database: bacano_questionnaires_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -82,6 +82,6 @@ test:
 #
 production:
   <<: *default
-  database: bacano_questionnairs_production
-  username: bacano_questionnairs
-  password: <%= ENV['BACANO_QUESTIONNAIRS_DATABASE_PASSWORD'] %>
+  database: bacano_questionnaires_production
+  username: bacano_questionnaires
+  password: <%= ENV['BACANO_QUESTIONNAIRES_DATABASE_PASSWORD'] %>

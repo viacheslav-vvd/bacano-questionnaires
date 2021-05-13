@@ -1,5 +1,5 @@
 {
-  "name": "bacano-questionnairs",
+  "name": "bacano-questionnaires",
   "private": true,
   "scripts": {
     "dev": "./bin/webpack-dev-server"

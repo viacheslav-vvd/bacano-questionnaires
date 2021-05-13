@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/bacano_questionnairs.iml" filepath="$PROJECT_DIR$/.idea/bacano_questionnairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../bacano_questionnaires/.idea/bacano_questionnairs.iml" filepath="$PROJECT_DIR$/../bacano_questionnaires/.idea/bacano_questionnairs.iml" />
     </modules>
   </component>
 </project>
