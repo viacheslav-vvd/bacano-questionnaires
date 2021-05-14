@@ -1,0 +1,77 @@
+name: Your eligibility
+slug: eligibility
+steps:
+  - 
+    questions:
+      - 
+        value: What is your registered company name?
+        answer_type: STRING
+      - 
+        value: How many employees do you have?
+        answer_type: RADIO
+        possible_answers:
+          - 
+            value: Under 500
+          - 
+            value: Over 500
+  - step:
+    questions:
+      -
+        value: Has your company worked on any projects that contained any scientific or technological challenges since 1st January 2018?
+        answer_type: RADIO
+        possible_answers:
+          -  
+            value: 'Yes'
+          -  
+            value: 'No'
+      -
+        value: Have you successfully made R&D tax claims for this company in the past?
+        answer_type: RADIO
+        possible_answers:
+          -  
+            value: 'Yes'
+          -  
+            value: 'No'
+  - 
+    questions:
+      -
+        value: What was the result of your project? (Can be either for internal or customer/public use)
+        answer_type: CHECKBOXES
+        possible_answers:
+          -  
+            value: New product, tool or service
+          -  
+            value: Incrementally improved existing technology
+          -  
+            value: Improved processes
+          -  
+            value: Integrated third party technology
+  - 
+    questions:
+      -
+        value: What was your approach to the development process?
+        answer_type: CHECKBOXES
+        possible_answers:
+          -  
+            value: We used existing third-party technology that largely met our needs without the need for further build
+          -  
+            value: We built upon existing third-party technology
+          -  
+            value: We developed new technology internally
+          -  
+            value: We developed new technology through use of contractor   
+  - 
+    questions:
+      -
+        value: Were there any technical challenges during the initiative?
+        answer_type: RADIO
+        possible_answers:
+          -  
+            value: It was straightforward, with no technical hurdles
+          -  
+            value: There were conceptual or commercial challenges, but nothing that required any technical innovation
+          -  
+            value: There was at least one significant technical challenge
+          -  
+            value: The technical challenges were so great we had to abandon or pivot to a different approach       
+      

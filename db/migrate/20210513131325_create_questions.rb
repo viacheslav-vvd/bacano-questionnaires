@@ -3,6 +3,7 @@ class CreateQuestions < ActiveRecord::Migration[6.1]
     create_table :questions do |t|
       t.references :step, null: false, foreign_key: true
       t.integer :position
+      t.string :value
       t.integer :answer_type
       t.boolean :answer_required, default: true
 

@@ -1,9 +1,9 @@
-class CreateResultItems < ActiveRecord::Migration[6.1]
+class CreateAnswers < ActiveRecord::Migration[6.1]
   def change
-    create_table :result_items do |t|
+    create_table :answers do |t|
       t.references :result, null: false, foreign_key: true
       t.references :question, null: false, foreign_key: true
-      t.json :answer
+      t.json :value
 
       t.timestamps
     end
