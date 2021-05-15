@@ -1,15 +1,16 @@
-<div class="mb-6">
-  <fieldset class="radio_buttons">
-    <%= collection_radio_buttons :questions, "#{question.id}", question.possible_answers.order(:position), :id, :value,
-                                 { checked: answer_value(@result, question.id) } do |b| %>
-      <span class="radio">
-        <%= b.label(class: 'inline-flex items-center mr-4 cursor-pointer font-medium text-sm text-black') do
-            b.radio_button(class: 'form-radio text-pink mr-2 h-5 w-5 focus:outline-none is-invalid radio_buttons 
-                                   optional form-radio cursor-pointer h-4 w-4 text-blue-500 transition duration-150 
-                                   ease-in-out') + b.text
-          end %>
-      </span>
-    <% end %>
-    <div class="text-sm text-red-400">You should choose at least one option</div>
-  </fieldset>
-</div>
+<fieldset class="radio_buttons">
+  <%= collection_radio_buttons :questions, "#{question.id}", question.possible_answers.order(:position), :id, :value,
+                               { checked: answer_value(@result, question.id) } do |b| %>
+    <span class="radio">
+      <%= b.label(class: 'inline-flex items-center mr-4 cursor-pointer font-medium text-sm text-black') do
+          b.radio_button(class: 'form-radio text-pink mr-2 h-5 w-5 focus:outline-none is-invalid radio_buttons 
+                                 optional form-radio cursor-pointer h-4 w-4 text-blue-500 transition duration-150 
+                                 ease-in-out') + b.text
+        end %>
+    </span>
+  <% end %>
+</fieldset>
+
+<% if @validation_errors && @validation_errors[question.id.to_s] %>
+  <div class="text-sm text-red-400">You should choose at least one option</div>
+<% end %>

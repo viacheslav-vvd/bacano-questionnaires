@@ -6,6 +6,8 @@ steps:
       - 
         value: What is your registered company name?
         answer_type: STRING
+        min_value: 5
+        max_value: 40
       - 
         value: How many employees do you have?
         answer_type: RADIO

@@ -4,10 +4,20 @@
 
 <div class="grid grid-cols-8 gap-4 my-12 bg-white rounded shadow-lg pt-10 pb-8">
   <div class="col-span-6 col-start-2">
-    <%= form_with url: "/questionnaires/#{@questionnaire.slug}/#{params[:uid]}/steps/#{params[:step_position]}", 
+    <%= form_with url: "/questionnaires/#{ @questionnaire.slug }/#{params[:uid]}/steps/#{ params[:step_position] }", 
                   local: true, class: 'simple_form' do |f| %>
       <%= render partial: 'question', collection: @step.questions.order(:position) %>
-      <div class="mt-12 text-center">
+      <div class="<%= params[:step_position] == '1' ? 'mt-12 text-center' : 'flex justify-between items-center mt-12' %>">
+        <% if params[:step_position] != '1' %>
+          <span class="inline-flex rounded-full shadow">
+            <%= link_to "Back", 
+                "/questionnaires/#{ @questionnaire.slug }/#{ params[:uid] }/steps/#{ params[:step_position].to_i - 1 }",
+                class: 'cursor-pointer inline-flex items-center px-4 py-2 border border-transparent text-sm 
+                        leading-5 font-medium rounded-full text-gray-700 bg-gray-100 hover:bg-gray-200 
+                        focus:outline-none focus:border-pink focus:shadow-outline-pink active:bg-pink 
+                        transition ease-in-out duration-150' %>
+          </span>  
+        <% end %>
         <span class="inline-flex rounded-full shadow">
           <%= f.submit 'Continue', class: 'cursor-pointer inline-flex items-center px-4 py-2 border border-transparent 
                                            text-sm leading-5 font-medium rounded-full text-white bg-pink 

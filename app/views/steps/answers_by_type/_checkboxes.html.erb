@@ -8,5 +8,8 @@
           end %>
     </span>
   <% end %>
-  <div class="text-sm text-red-400">You should choose at least one option</div>
 </fieldset>
+
+<% if @validation_errors && @validation_errors[question.id.to_s] %>
+  <div class="text-sm text-red-400">You should choose at least one option</div>
+<% end %>
