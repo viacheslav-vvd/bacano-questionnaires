@@ -1,0 +1,5 @@
+<h1><%= @questionnaire.name %></h1>
+
+<%= render partial: 'question', collection: @step.questions.order(:position) %>
+
+<%= link_to 'Continue', "/#{@questionnaire.slug}/#{params[:uid]}/step/#{params[:step_id].to_i + 1}" %>

@@ -3,7 +3,7 @@ class Question < ApplicationRecord
   has_many :possible_answers, dependent: :destroy
   has_many :answers, dependent: :destroy
   
-  validates :value, presence: true
+  validates :value, :answer_type, :position, presence: true
   
   enum answer_type: %w[STRING INTEGER RADIO CHECKBOXES]
 end

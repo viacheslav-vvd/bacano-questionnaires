@@ -1,0 +1,5 @@
+<div>
+  <p><b><%= question.value %></b></p>
+  <%= render "questionnaires/answers_by_type/#{question.answer_type.downcase}", 
+             possible_answers: question.possible_answers.order(:position) %>
+</div>
