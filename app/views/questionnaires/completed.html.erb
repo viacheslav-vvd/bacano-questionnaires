@@ -1,0 +1,14 @@
+<div class="text-center">
+  <h1 class="text-white text-3xl"><%= @questionnaire.name %></h1>
+</div>
+
+<div class="grid grid-cols-8 gap-4 my-12 bg-white rounded shadow-lg pt-10 pb-8">
+  <div class="col-span-6 col-start-2">
+    <p>Thank you!</p>
+    <p>You have fulfilled the Questionnaire</p>
+  </div>
+</div>
+
+<div class="mb-6 text-center">
+  <%= link_to "Back to Questionnaire Index", root_path, class: 'text-white' %>
+</div>

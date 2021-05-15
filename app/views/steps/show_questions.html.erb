@@ -1,0 +1,23 @@
+<div class="text-center">
+  <h1 class="text-white text-3xl"><%= @questionnaire.name %></h1>
+</div>
+
+<div class="grid grid-cols-8 gap-4 my-12 bg-white rounded shadow-lg pt-10 pb-8">
+  <div class="col-span-6 col-start-2">
+    <%= form_with url: "/questionnaires/#{@questionnaire.slug}/#{params[:uid]}/steps/#{params[:step_position]}", 
+                  local: true, class: 'simple_form' do |f| %>
+      <%= render partial: 'question', collection: @step.questions.order(:position) %>
+      <div class="mt-12 text-center">
+        <span class="inline-flex rounded-full shadow">
+          <%= f.submit 'Continue', class: 'cursor-pointer inline-flex items-center px-4 py-2 border border-transparent 
+                                           text-sm leading-5 font-medium rounded-full text-white bg-pink 
+                                           focus:outline-none focus:border-pink focus:shadow-outline-pink' %>
+        </span>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="mb-6 text-center">
+  <%= link_to "Back to Questionnaire Index", root_path, class: 'text-white' %>
+</div>

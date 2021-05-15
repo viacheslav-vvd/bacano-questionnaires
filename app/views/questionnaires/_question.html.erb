@@ -1,8 +1,0 @@
-<div class="mb-6">
-  <label for="company_name" class="string optional block mb-1 font-semibold w-full text-sm">
-    <%= question.value %>
-  </label>
-
-  <%= render "questionnaires/answers_by_type/#{question.answer_type.downcase}", 
-              possible_answers: question.possible_answers.order(:position) %>
-</div>

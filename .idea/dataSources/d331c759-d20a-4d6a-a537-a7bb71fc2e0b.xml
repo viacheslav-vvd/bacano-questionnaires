@@ -1414,7 +1414,7 @@ true posix/WET
 false posix/Zulu
 true posixrules
 </TimeZones>
-      <StartupTime>1620975697</StartupTime>
+      <StartupTime>1621059005</StartupTime>
     </root>
     <database id="2" parent="1" name="PartnerMetrics_development">
       <ObjectId>42519</ObjectId>
@@ -1433,7 +1433,7 @@ true posixrules
 13108||-9223372036854775808|U|G
 13108||10|U|G</Grants>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>58126</IntrospectionStateNumber>
+      <IntrospectionStateNumber>58305</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|58603|58605|1
 sequence|table|58615|58617|1
@@ -1542,7 +1542,7 @@ sequence|table|58685|58687|1
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>58127</IntrospectionStateNumber>
+      <IntrospectionStateNumber>58306</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="27" parent="3" name="plpgsql">
@@ -1701,7 +1701,7 @@ sequence|table|58685|58687|1
     <table id="49" parent="26" name="questions">
       <ObjectId>58632</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>58119</StateNumber>
+      <StateNumber>58304</StateNumber>
     </table>
     <table id="50" parent="26" name="results">
       <ObjectId>58669</ObjectId>
@@ -2059,7 +2059,19 @@ position</ColNames>
       <StateNumber>58119</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="98" parent="49" name="questions_pkey">
+    <column id="98" parent="49" name="min_value">
+      <Position>9</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>58304</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="99" parent="49" name="max_value">
+      <Position>10</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>58304</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="100" parent="49" name="questions_pkey">
       <ObjectId>58640</ObjectId>
       <StateNumber>58119</StateNumber>
       <ColNames>id</ColNames>
@@ -2069,7 +2081,7 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="99" parent="49" name="index_questions_on_step_id_and_position">
+    <index id="101" parent="49" name="index_questions_on_step_id_and_position">
       <ObjectId>58648</ObjectId>
       <StateNumber>58119</StateNumber>
       <ColNames>step_id
@@ -2079,7 +2091,7 @@ position</ColNames>
       <CollationIds>0,0</CollationIds>
       <ClassIds>3124,1978</ClassIds>
     </index>
-    <index id="100" parent="49" name="index_questions_on_step_id">
+    <index id="102" parent="49" name="index_questions_on_step_id">
       <ObjectId>58647</ObjectId>
       <StateNumber>58119</StateNumber>
       <ColNames>step_id</ColNames>
@@ -2087,14 +2099,14 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="101" parent="49" name="questions_pkey">
+    <key id="103" parent="49" name="questions_pkey">
       <ObjectId>58641</ObjectId>
       <StateNumber>58119</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>questions_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="102" parent="49" name="fk_rails_06d7c5aa70">
+    <foreign-key id="104" parent="49" name="fk_rails_06d7c5aa70">
       <ObjectId>58642</ObjectId>
       <StateNumber>58119</StateNumber>
       <ColNames>step_id</ColNames>
@@ -2104,7 +2116,7 @@ position</ColNames>
       <RefKeyName>steps_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="103" parent="50" name="id">
+    <column id="105" parent="50" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2112,34 +2124,34 @@ position</ColNames>
       <DefaultExpression>nextval(&apos;results_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="104" parent="50" name="questionnaire_id">
+    <column id="106" parent="50" name="questionnaire_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58121</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="105" parent="50" name="uid">
+    <column id="107" parent="50" name="uid">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <StateNumber>58121</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="106" parent="50" name="created_at">
+    <column id="108" parent="50" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58121</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="107" parent="50" name="updated_at">
+    <column id="109" parent="50" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58121</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="108" parent="50" name="results_pkey">
+    <index id="110" parent="50" name="results_pkey">
       <ObjectId>58676</ObjectId>
       <StateNumber>58121</StateNumber>
       <ColNames>id</ColNames>
@@ -2149,7 +2161,7 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="109" parent="50" name="index_results_on_questionnaire_id">
+    <index id="111" parent="50" name="index_results_on_questionnaire_id">
       <ObjectId>58683</ObjectId>
       <StateNumber>58121</StateNumber>
       <ColNames>questionnaire_id</ColNames>
@@ -2157,7 +2169,7 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="110" parent="50" name="index_results_on_uid">
+    <index id="112" parent="50" name="index_results_on_uid">
       <ObjectId>58684</ObjectId>
       <StateNumber>58121</StateNumber>
       <ColNames>uid</ColNames>
@@ -2166,14 +2178,14 @@ position</ColNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="111" parent="50" name="results_pkey">
+    <key id="113" parent="50" name="results_pkey">
       <ObjectId>58677</ObjectId>
       <StateNumber>58121</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>results_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="112" parent="50" name="fk_rails_77ef772e0d">
+    <foreign-key id="114" parent="50" name="fk_rails_77ef772e0d">
       <ObjectId>58678</ObjectId>
       <StateNumber>58121</StateNumber>
       <ColNames>questionnaire_id</ColNames>
@@ -2183,14 +2195,14 @@ position</ColNames>
       <RefKeyName>questionnaires_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="113" parent="51" name="version">
+    <column id="115" parent="51" name="version">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58115</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="114" parent="51" name="schema_migrations_pkey">
+    <index id="116" parent="51" name="schema_migrations_pkey">
       <ObjectId>58593</ObjectId>
       <StateNumber>58115</StateNumber>
       <ColNames>version</ColNames>
@@ -2201,14 +2213,14 @@ position</ColNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="115" parent="51" name="schema_migrations_pkey">
+    <key id="117" parent="51" name="schema_migrations_pkey">
       <ObjectId>58594</ObjectId>
       <StateNumber>58115</StateNumber>
       <ColNames>version</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
     </key>
-    <column id="116" parent="52" name="id">
+    <column id="118" parent="52" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2216,34 +2228,34 @@ position</ColNames>
       <DefaultExpression>nextval(&apos;steps_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="117" parent="52" name="questionnaire_id">
+    <column id="119" parent="52" name="questionnaire_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58118</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="118" parent="52" name="position">
+    <column id="120" parent="52" name="position">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>58118</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="119" parent="52" name="created_at">
+    <column id="121" parent="52" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58118</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="120" parent="52" name="updated_at">
+    <column id="122" parent="52" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>58118</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="121" parent="52" name="steps_pkey">
+    <index id="123" parent="52" name="steps_pkey">
       <ObjectId>58621</ObjectId>
       <StateNumber>58118</StateNumber>
       <ColNames>id</ColNames>
@@ -2253,7 +2265,7 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="122" parent="52" name="index_steps_on_questionnaire_id_and_position">
+    <index id="124" parent="52" name="index_steps_on_questionnaire_id_and_position">
       <ObjectId>58629</ObjectId>
       <StateNumber>58118</StateNumber>
       <ColNames>questionnaire_id
@@ -2263,7 +2275,7 @@ position</ColNames>
       <CollationIds>0,0</CollationIds>
       <ClassIds>3124,1978</ClassIds>
     </index>
-    <index id="123" parent="52" name="index_steps_on_questionnaire_id">
+    <index id="125" parent="52" name="index_steps_on_questionnaire_id">
       <ObjectId>58628</ObjectId>
       <StateNumber>58118</StateNumber>
       <ColNames>questionnaire_id</ColNames>
@@ -2271,14 +2283,14 @@ position</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="124" parent="52" name="steps_pkey">
+    <key id="126" parent="52" name="steps_pkey">
       <ObjectId>58622</ObjectId>
       <StateNumber>58118</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>steps_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="125" parent="52" name="fk_rails_e646ab1240">
+    <foreign-key id="127" parent="52" name="fk_rails_e646ab1240">
       <ObjectId>58623</ObjectId>
       <StateNumber>58118</StateNumber>
       <ColNames>questionnaire_id</ColNames>

@@ -1,0 +1,12 @@
+<fieldset class="check_boxes optional company_development_categories">
+  <div class="mb-3 text-sm text-gray-400">Select one or more options</div>
+  <%= collection_check_boxes :questions, "#{question.id}", question.possible_answers.order(:position), :id, :value,
+                             { checked: answer_value(@result, question.id) } do |b| %>
+    <span class="checkbox">
+      <%= b.label(class: 'w-full inline-flex items-start mb-2 cursor-pointer text-sm text-gray-700') do
+            b.check_box(class: 'form-checkbox text-pink mr-2 h-5 w-5 focus:outline-none check_boxes optional') + b.text
+          end %>
+    </span>
+  <% end %>
+  <div class="text-sm text-red-400">You should choose at least one option</div>
+</fieldset>

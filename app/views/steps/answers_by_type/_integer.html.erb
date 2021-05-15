@@ -1,0 +1,5 @@
+<div class="relative">
+  <%= number_field_tag "questions[#{question.id}]", answer_value(@result, question.id)&.to_i,
+                     class: 'shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline' %>
+</div>
+<span class="block text-sm text-red-400">can't be blank</span>  
