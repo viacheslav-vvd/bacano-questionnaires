@@ -13,18 +13,18 @@
     <shared />
   </component>
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../bacano_questionnaires">
-      <sourceFolder url="file://$MODULE_DIR$/../bacano_questionnaires/features" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../bacano_questionnaires/spec" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../bacano_questionnaires/test" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/components" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/public/system" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/public/packs" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/vendor/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/vendor/bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/log" />
-      <excludeFolder url="file://$MODULE_DIR$/../bacano_questionnaires/.bundle" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/components" />
+      <excludeFolder url="file://$MODULE_DIR$/public/system" />
+      <excludeFolder url="file://$MODULE_DIR$/public/packs" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/log" />
+      <excludeFolder url="file://$MODULE_DIR$/.bundle" />
     </content>
     <orderEntry type="jdk" jdkName="RVM: ruby-3.0.1 [bacano]" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -51,7 +51,6 @@
     <orderEntry type="library" scope="PROVIDED" name="dotenv-rails (v2.7.6, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.0, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="friendly_id (v5.4.2, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.2, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
@@ -101,6 +100,7 @@
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.1.1, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.0.2, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v3.2.2, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tailwindcss-rails (v0.3.3, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="thor (v1.1.0, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tilt (v2.0.10, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="turbolinks (v5.2.1, RVM: ruby-3.0.1 [bacano]) [gem]" level="application" />

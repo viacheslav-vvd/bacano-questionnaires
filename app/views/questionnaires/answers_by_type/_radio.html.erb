@@ -1,3 +1,18 @@
-<div>
-  radio
+<div class="mb-6">
+  <fieldset class="radio_buttons optional company_employees">
+    <input type="hidden" name="company[employees]" value="">
+      <span class="radio">
+        <label for="company_employees_under_500" class="inline-flex items-center mr-4 cursor-pointer font-medium text-sm text-black">
+          <input aria-invalid="true" type="radio" value="under_500" name="company[employees]" id="company_employees_under_500" class="form-radio text-pink mr-2 h-5 w-5 focus:outline-none is-invalid radio_buttons optional form-radio cursor-pointer h-4 w-4 text-blue-500 transition duration-150 ease-in-out">
+          Under 500
+        </label>
+      </span>
+      <span class="radio">
+        <label for="company_employees_over_500" class="inline-flex items-center mr-4 cursor-pointer font-medium text-sm text-black">
+          <input aria-invalid="true" type="radio" value="over_500" name="company[employees]" id="company_employees_over_500" class="form-radio text-pink mr-2 h-5 w-5 focus:outline-none is-invalid radio_buttons optional form-radio cursor-pointer h-4 w-4 text-blue-500 transition duration-150 ease-in-out">
+          Over 500
+        </label>
+      </span>
+    <div class="text-sm text-red-400">Employees can't be blank</div>
+  </fieldset>
 </div>

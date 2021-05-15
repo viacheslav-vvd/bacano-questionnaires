@@ -1,3 +1,13 @@
-<h1>Questionnaires</h1>
+<div class="text-center">
+  <h1 class="text-white text-3xl">Questionnaires</h1>
+</div>
 
-<%= render partial: 'questionnaire', collection: @questionnaires %>
+<div class="grid grid-cols-8 gap-4 my-12 bg-white rounded shadow-lg pt-10 pb-8">
+  <div class="col-span-6 col-start-2">
+    <ul>
+      <% @questionnaires.each do |questionnaire| %>
+        <li><%= link_to questionnaire.name, questionnaire_show_path(questionnaire.slug) %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
