@@ -1,0 +1,81 @@
+name: Test your English
+slug: english
+steps:
+  - questions: 
+    - value: What is your name?
+      answer_type: STRING
+      answer_required: false
+    - value: What is your age?
+      answer_type: INTEGER
+      min_value: 5
+      max_value: 105 
+  - questions:
+    - value: Can I park here?
+      answer_type: RADIO
+      possible_answers:
+        - value: Sorry, I did that.
+        - value: It's the same place.
+        - value: Only for half an hour.
+    - value: What colour will you paint the children's bedroom?
+      answer_type: RADIO
+      possible_answers:
+        - value: I hope it was right.
+        - value: We can't decide.
+        - value: It wasn't very difficult.
+    - value: I can't understand this email.
+      answer_type: RADIO
+      possible_answers:
+        - value: Would you like some help?
+        - value: Don't you know?
+        - value: I suppose you can.
+  - questions:
+    - value: I'd like two tickets for tomorrow night.
+      answer_type: RADIO
+      possible_answers:
+        - value: How much did you pay?
+        - value: Afternoon and evening.
+        - value: I'll just check for you.
+    - value: Shall we go to the gym now?
+      answer_type: RADIO
+      possible_answers:
+        - value: I'm too tired.
+        - value: It's very good.
+        - value: Not at all.
+  - questions:
+    - value: His eyes were ...... bad that he couldn't read the number plate of the car in front.
+      answer_type: RADIO
+      possible_answers:
+        - value: such
+        - value: too
+        - value: so
+        - value: very
+    - value: The company needs to decide ...... and for all what its position is on this point.
+      answer_type: RADIO
+      possible_answers:
+        - value: here
+        - value: once
+        - value: first
+        - value: finally
+    - value: Don't put your cup on the ...... of the table – someone will knock it off.
+      answer_type: RADIO
+      possible_answers:
+        - value: outside
+        - value: edge
+        - value: boundary
+        - value: border
+  - questions:
+    - value: I'm sorry - I didn't ...... to disturb you.
+      answer_type: RADIO
+      possible_answers:
+        - value: hope
+        - value: think
+        - value: mean
+        - value: suppose
+    - value: The singer ended the concert ...... her most popular song.
+      answer_type: RADIO
+      possible_answers:
+        - value: by
+        - value: with
+        - value: in
+        - value: as
+      

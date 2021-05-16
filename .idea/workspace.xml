@@ -2,14 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecda7029-2204-4a36-a079-f01755575de6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data_source/english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bacano_questionnairs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bacano_questionnairs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b/storage_v2/_src_/database/bacano_questionnaires_development.LZhxFg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b/storage_v2/_src_/database/bacano_questionnaires_development.LZhxFg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/steps_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/steps_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/possible_answer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/possible_answer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/questionnaire.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/questionnaire.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/result.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/step.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/step.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_checkboxes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_checkboxes.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_integer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_integer.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_radio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_radio.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_string.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_string.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/steps/show_questions.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/show_questions.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_source/new_questionnaire.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data_source/new_questionnaire.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_source/new_questionnaire.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data_source/eligibility.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/questionnaires_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/helpers/steps_helper_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/answer_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/answer_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/possible_answer_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/possible_answer_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/question_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/question_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/questionnaire_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/questionnaire_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/result_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/result_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/step_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/step_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/questionnaires_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/steps_spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +73,12 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/requests" />
       <recent name="$PROJECT_DIR$/app/views/steps" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: bacano_questionnaires">
+  <component name="RunManager" selected="Rake.import_questionnaire">
     <configuration name="IRB: bacano_questionnairs" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="bacano_questionnairs" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -286,7 +310,8 @@
       <workItem from="1620907892313" duration="6112000" />
       <workItem from="1620914118828" duration="756000" />
       <workItem from="1620991165743" duration="10128000" />
-      <workItem from="1621062416141" duration="34907000" />
+      <workItem from="1621062416141" duration="35542000" />
+      <workItem from="1621156782537" duration="19489000" />
     </task>
     <servers />
   </component>
@@ -306,9 +331,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bacano_questionnaires@Development__bacano_questionnaires.rcov" NAME="Development: bacano_questionnaires Coverage Results" MODIFIED="1621093988408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
+    <SUITE FILE_PATH="coverage/bacano_questionnaires@Development__bacano_questionnaires.rcov" NAME="Development: bacano_questionnaires Coverage Results" MODIFIED="1621156864644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
     <SUITE FILE_PATH="coverage/bacano_questionnaires@IRB__bacano_questionnairs.rcov" NAME="IRB: bacano_questionnairs Coverage Results" MODIFIED="1620994362492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
     <SUITE FILE_PATH="coverage/bacano_questionnairs@Development__bacano_questionnairs.rcov" NAME="Development: bacano_questionnairs Coverage Results" MODIFIED="1620908625091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
-    <SUITE FILE_PATH="coverage/bacano_questionnaires@import_questionnaire.rcov" NAME="import_questionnaire Coverage Results" MODIFIED="1621063176086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
+    <SUITE FILE_PATH="coverage/bacano_questionnaires@import_questionnaire.rcov" NAME="import_questionnaire Coverage Results" MODIFIED="1621176357976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
   </component>
 </project>

@@ -12,7 +12,10 @@ class StepsController < ApplicationController
     @validation_errors = {}
     params[:questions].each do |question_id, value|
       @question= Question.find(question_id)
+      
       value.shift if @question.answer_type == 'CHECKBOXES'
+      value.strip! if @question.answer_type == 'STRING'
+      
       @validation_errors[question_id] = validate_value(@question, value)
       if @validation_errors[question_id].nil?
         result = Result.find_or_create_by(uid: params[:uid], questionnaire_id: @questionnaire.id)
