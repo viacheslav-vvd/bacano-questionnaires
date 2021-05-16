@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ecda7029-2204-4a36-a079-f01755575de6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.import_questionnaire">
+  <component name="RunManager" selected="Rails.Development: bacano_questionnaires">
     <configuration name="IRB: bacano_questionnairs" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="bacano_questionnairs" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -282,7 +281,7 @@
       <workItem from="1620914118828" duration="756000" />
       <workItem from="1620991165743" duration="10128000" />
       <workItem from="1621062416141" duration="35542000" />
-      <workItem from="1621156782537" duration="21138000" />
+      <workItem from="1621156782537" duration="28484000" />
     </task>
     <servers />
   </component>
@@ -302,8 +301,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bacano_questionnaires@Development__bacano_questionnaires.rcov" NAME="Development: bacano_questionnaires Coverage Results" MODIFIED="1621156864644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
+    <SUITE FILE_PATH="coverage/bacano_questionnaires@Development__bacano_questionnaires.rcov" NAME="Development: bacano_questionnaires Coverage Results" MODIFIED="1621187069169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
     <SUITE FILE_PATH="coverage/bacano_questionnaires@IRB__bacano_questionnairs.rcov" NAME="IRB: bacano_questionnairs Coverage Results" MODIFIED="1620994362492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
+    <SUITE FILE_PATH="coverage/bacano_questionnaires@Production__bacano_questionnaires.rcov" NAME="Production: bacano_questionnaires Coverage Results" MODIFIED="1621182362522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
     <SUITE FILE_PATH="coverage/bacano_questionnairs@Development__bacano_questionnairs.rcov" NAME="Development: bacano_questionnairs Coverage Results" MODIFIED="1620908625091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
     <SUITE FILE_PATH="coverage/bacano_questionnaires@import_questionnaire.rcov" NAME="import_questionnaire Coverage Results" MODIFIED="1621176357976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="bacano_questionnairs" />
   </component>
