@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecda7029-2204-4a36-a079-f01755575de6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_source/english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bacano_questionnairs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bacano_questionnairs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b/storage_v2/_src_/database/bacano_questionnaires_development.LZhxFg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d331c759-d20a-4d6a-a537-a7bb71fc2e0b/storage_v2/_src_/database/bacano_questionnaires_development.LZhxFg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/steps_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/steps_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/possible_answer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/possible_answer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/question.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/question.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/questionnaire.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/questionnaire.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/result.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/result.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/step.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/step.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_checkboxes.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_checkboxes.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_integer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_integer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_radio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_radio.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/steps/answers_by_type/_string.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/steps/answers_by_type/_string.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_source/new_questionnaire.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data_source/eligibility.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/questionnaires_helper_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/steps_helper_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/answer_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/answer_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/possible_answer_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/possible_answer_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/question_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/question_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/questionnaire_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/questionnaire_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/result_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/result_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/step_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/step_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/questionnaires_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/steps_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +282,7 @@
       <workItem from="1620914118828" duration="756000" />
       <workItem from="1620991165743" duration="10128000" />
       <workItem from="1621062416141" duration="35542000" />
-      <workItem from="1621156782537" duration="19489000" />
+      <workItem from="1621156782537" duration="21138000" />
     </task>
     <servers />
   </component>

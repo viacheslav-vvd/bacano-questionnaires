@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
+### Using:
 * Ruby version 3.0.1
+* Rails version 6.1.3
+* Postgresql
 
-* System dependencies
+### To setup the application locally:
 
-* Configuration
+* In the application root directory create file '.env'. Place to it a line that describe DATABASE_URL. E.g.:
+DATABASE_URL=postgres://user:password@localhost:5432/bacano_questionnaires_development
 
-* Database creation
+#### In a terminal from the application directory run next commands:
+* bundle
+* yarn
+* rails db:create
+* rails db:migrate
 
-* Database initialization
+### Populate the database with questionnaires:
 
-* How to run the test suite
+- Questionnaires are in the directory 'data_source' (every questionnaire in the separate .yml file). 
+- To import data from them to database use command: rake import:questionnaire['{file_name.yml}']. E.g.: 
 
-* Services (job queues, cache servers, search engines, etc.)
+rake import:questionnaire['eligibility.yml']
 
-* Deployment instructions
+rake import:questionnaire['english.yml']
 
-* ...
+### To run the application in the separate terminals from the application directory run:
+* yarn dev
+* rails server 
